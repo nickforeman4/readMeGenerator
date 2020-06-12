@@ -1,0 +1,28 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "README Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickforeman4/readMeGenerator.git"
+  },
+  "keywords": [
+    "inquirer",
+    "fs"
+  ],
+  "author": "Nicholas Foreman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickforeman4/readMeGenerator/issues"
+  },
+  "homepage": "https://github.com/nickforeman4/readMeGenerator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.1.0"
+  }
+}
