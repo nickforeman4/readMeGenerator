@@ -79,6 +79,13 @@ ${userInput.projectDescription}
 
 ## Table of Contents
 
+- [Installation](#heading)
+- [Usage](#heading-1)
+- [License](#heading-2)
+- [Contributing](#heading-3)
+- [Test](#heading-4)
+- [Questions](#heading-5)
+
 
 ## Installation
 

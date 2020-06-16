@@ -5,15 +5,22 @@
 
 ## Description
 
-Generates a README.md file.
+Generates a README.md file
 
 
 ## Table of Contents
 
+- [Installation](#heading)
+- [Usage](#heading-1)
+- [License](#heading-2)
+- [Contributing](#heading-3)
+- [Test](#heading-4)
+- [Questions](#heading-5)
+
 
 ## Installation
 
-Input information, and a README.md file will be generated for you.
+NPM Install
 
 
 ## Usage
@@ -33,11 +40,12 @@ N/A
 
 ## Tests
 
-Manual.
+Manual
 
 
 ## Questions
 
-nick4man@aol.com
+If you have any additional questions, feel free to contact me via email:
+nicholas.m.foreman@gmail.com
 
 * ![GitHub license] (https://img.shields.io/badge/license-MIT-blue.svg)
