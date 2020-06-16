@@ -72,15 +72,22 @@ inquirer
 
 ## ${gitHubData.data.name}
 
-## ${gitHubData.data.email}
+## Email:
+${gitHubData.data.email}
 
-## ${gitHubData.data.followers}
+## Followers:
+${gitHubData.data.followers}
 
-## ${gitHubData.data.follwing}
+## Following:
+${gitHubData.data.follwing}
 
-## ${gitHubData.data.public_repos}
+## Repos:
+${gitHubData.data.public_repos}
 
-## Description | Details
+* ![GitHub license] (https://img.shields.io/badge/license-${userInput.license}-blue.svg)
+
+Description | Details
+---------------------|----
 About | ${userInput.projectDescription}
 Installation | ${userInput.installation}
 Usage | ${userInput.usageInfo}

@@ -1,5 +1,5 @@
 
-# ReadMe Generator
+# Read Me Generator
 
 ## Nicholas Foreman
 
@@ -11,10 +11,13 @@
 
 ## 10
 
-## Description | Details
+* ![GitHub license] (https://img.shields.io/badge/license-MIT-blue.svg)
+
+Description | Details
+---------------------|----
 About | Generates a README.md file.
-Installation | npm install
+Installation | Input your answers, and a README.md file will be generated for you.
 Usage | N/A
-Testing | Manual testing required.
+Testing | N/A
 Contribution | N/A
-Licesnse | (https://img.shields.io/badge/license-ISC-blue.svg)
+Licesnse | (https://img.shields.io/badge/license-MIT-blue.svg)
