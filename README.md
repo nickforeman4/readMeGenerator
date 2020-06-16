@@ -5,17 +5,17 @@
 
 ## Description
 
-Generates a README.md file
+After inputting the required information, a README.md file wil be generated.
 
 
 ## Table of Contents
 
-- [Installation](#heading)
-- [Usage](#heading-1)
-- [License](#heading-2)
-- [Contributing](#heading-3)
-- [Test](#heading-4)
-- [Questions](#heading-5)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contribution](#Contribution)
+- [Testing](#Testing)
+- [Questions](#Questions)
 
 
 ## Installation
@@ -33,14 +33,14 @@ N/A
 (https://img.shields.io/badge/license-MIT-blue.svg)
 
 
-## Contributing
+## Contribution
 
 N/A
 
 
-## Tests
+## Testing
 
-Manual
+Manual Testing
 
 
 ## Questions
