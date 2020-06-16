@@ -68,32 +68,49 @@ inquirer
     }).then(function(gitHubData) {
         console.log(gitHubData.data)
         var readMeText = `
+
 # ${userInput.projectTitle}
 
-## ${gitHubData.data.name}
 
-## Email:
-${gitHubData.data.email}
+## Description
 
-## Followers:
-${gitHubData.data.followers}
+${userInput.projectDescription}
 
-## Following:
-${gitHubData.data.follwing}
 
-## Repos:
-${gitHubData.data.public_repos}
+## Table of Contents
 
-* ![GitHub license] (https://img.shields.io/badge/license-${userInput.license}-blue.svg)
 
-Description | Details
----------------------|----
-About | ${userInput.projectDescription}
-Installation | ${userInput.installation}
-Usage | ${userInput.usageInfo}
-Testing | ${userInput.instructions}
-Contribution | ${userInput.guidelines}
-Licesnse | (https://img.shields.io/badge/license-${userInput.license}-blue.svg)`
+## Installation
+
+${userInput.installation}
+
+
+## Usage
+
+${userInput.usageInfo}
+
+
+## License
+
+(https://img.shields.io/badge/license-${userInput.license}-blue.svg)
+
+
+## Contributing
+
+${userInput.guidelines}
+
+
+## Tests
+
+${userInput.instructions}
+
+
+## Questions
+
+If you have any additional questions, feel free to contact me via email:
+${userInput.email}
+
+* ![GitHub license] (https://img.shields.io/badge/license-${userInput.license}-blue.svg)`
 console.log(readMeText)
 return readMeText
     }).then(function(fileData) {
